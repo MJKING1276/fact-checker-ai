@@ -3,7 +3,6 @@
 ## Overview
 
 This project leverages Google Generative AI and NewsAPI to create a fact-checking agent. The agent receives a claim (a statement or news item) and verifies its accuracy, returning a verdict and explanation. The app is built with Flask and utilizes a beautiful, retro-styled web interface.
-Prerequisites
 
 ## Features
 
@@ -30,8 +29,8 @@ Prerequisites
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/fact-checker-ai-agent.git
-    cd fact-checker-ai-agent
+    git clone https://github.com/MJKING1276/fact-checker-ai.git
+    cd fact-checker-ai
     ```
 
 2. Install required dependencies:
@@ -75,12 +74,10 @@ The result is displayed to the user along with a percentage accuracy and a detai
 
 ## Example Output
 
-For a claim like **"The moon is made of cheese"**:
+For a claim like **"The Earth is flat"**:
 - **Verdict**: WRONG ❌
-- **Accuracy**: 30%
-- **Explanation**: The moon is not made of cheese. Scientific evidence suggests that the moon is primarily composed of rock and minerals, not dairy products. 
-
-
+- **Accuracy**: 100%
+- **Explanation**: The claim that the Earth is flat has been debunked by centuries of scientific observation and evidence. Satellite imagery, circumnavigation, and gravitational measurements all confirm that the Earth is an oblate spheroid.
 
 ### Notes
 
@@ -88,5 +85,3 @@ For a claim like **"The moon is made of cheese"**:
 - **Performance**: While the app is generally fast, external API calls (to News API and Google Generative AI) may take some time, depending on the claim's complexity and the number of sources retrieved.
 
 Enjoy verifying your claims with AI!
-
-
