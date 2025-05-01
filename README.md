@@ -1,0 +1,1 @@
+his project leverages Google Generative AI and NewsAPI to create a fact-checking agent. The agent receives a claim (a statement or news item) and verifies its accuracy, returning a verdict and explanation. The app is built with Flask and utilizes a beautiful, retro-styled web interface.
