@@ -46,7 +46,7 @@ This project leverages Google Generative AI and NewsAPI to create a fact-checkin
 
 4. Run the Flask application:
     ```bash
-    python app.py
+    python factchecker.py
     ```
 
 5. Open a web browser and go to `http://127.0.0.1:5000` to access the application.
